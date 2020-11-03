@@ -1,0 +1,95 @@
+body {
+  background-image: url(https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg);
+  color: #fff;
+}
+
+header {
+  border-bottom: solid 2px #fff;
+  margin-bottom: 5px;
+}
+
+
+nav {
+  border-bottom: solid 2px #fff;
+  margin-bottom: 5px;
+}
+
+.logo {
+  width: 100px;
+  vertical-align: middle;
+  margin-bottom: 15px;
+}
+
+.logo-text{
+  font-size: 25px;
+
+}
+
+.container{
+  width: 1400px;
+  margin: 0 auto;
+}
+
+
+#unread-count{
+  background-color: #ed9e17;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+
+.read{
+  background-color: lightgrey;
+  border-bottom: #000 solid 2px;
+}
+
+
+.unread{
+  background-color: #fff;
+  border-bottom: #000 solid 2px;
+}
+
+.row-left{
+  display: inline-block;
+  height: 25px;
+}
+
+
+
+.row-right{
+  display: inline-block;
+  height: 25px;
+
+}
+
+.body{
+  color: #96928a;
+}
+
+.star-subject{
+  color: #000;
+  font-weight: bold;
+}
+
+
+main{
+  margin-bottom: 10px;
+  margin-top: 10px;
+
+}
+
+
+
+footer{
+  padding-top: 10px;
+  text-align: center;
+  border-top: solid 2px #fff;
+
+}
+
+
+
+#name-footer{
+  font-size: 25px;
+  font-weight: bolder;
+}

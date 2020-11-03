@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+    <title>GMail</title>
+  </head>
+  <body>
+
+    <!-- inizio contenitore -->
+    <div class="container">
+
+
+      <header>
+        <!-- logo e testo -->
+        <img class="logo" src="img/logo-gmail.png">
+        <span class="logo-text"> Gmail</span>
+      </header>
+
+      <!-- email non lette -->
+      <nav>
+        <!-- input e testo -->
+        <input type="text" placeholder="Search">
+        <button type="button" >VAI</button>
+        <h2>You have <span id="unread-count">30</span> unread</h2>
+      </nav>
+      <!-- /email non lette -->
+
+      <!-- inizio parte centrale -->
+      <main>
+        <!-- lista email -->
+
+        <!-- email letta -->
+
+        <div class="row read" >
+          <div class="row-left">
+
+            <input type="checkbox">
+
+            <span class="star-subject"> &#9733; oggetto della email</span>
+
+          </div>
+
+          <div class="row-right">
+            <span class="body"> - testo della email...</span>
+          </div>
+        </div>
+
+
+        <!-- email non lette -->
+        <div class="row unread">
+          <div class="row-left">
+
+            <input type="checkbox">
+            <span class="star-subject"> &#9733; oggetto della email</span>
+
+          </div>
+
+          <div class="row-right">
+            <span class="body"> - testo della email...</span>
+          </div>
+        </div>
+
+        <div class="row read" >
+          <div class="row-left">
+
+            <input type="checkbox">
+
+            <span class="star-subject"> &#9733; oggetto della email</span>
+
+          </div>
+
+          <div class="row-right">
+            <span class="body"> - testo della email...</span>
+          </div>
+        </div>
+
+        <!-- email lette -->
+        <div class="row read" >
+          <div class="row-left">
+
+            <input type="checkbox">
+
+            <span class="star-subject"> &#9733; oggetto della email</span>
+
+          </div>
+
+          <div class="row-right">
+            <span class="body"> - testo della email...</span>
+          </div>
+        </div>
+        <!-- /lista email -->
+
+      </main>
+      <!-- /parte centrale -->
+
+      <!-- crediti -->
+      <footer>
+        <span id="name-footer">GMail</span>
+        <em>
+          <strong>powered by Alex</strong>
+        </em>
+      </footer>
+
+      <!-- /crediti -->
+    </div>
+    <!-- /contenitore -->
+  </body>
+</html>
